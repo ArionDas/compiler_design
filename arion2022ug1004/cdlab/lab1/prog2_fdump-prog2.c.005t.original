@@ -1,0 +1,49 @@
+
+;; Function add (null)
+;; enabled by -tree-original
+
+
+{
+  return a + b;
+}
+
+
+;; Function subtract (null)
+;; enabled by -tree-original
+
+
+{
+  return a - b;
+}
+
+
+;; Function factorial (null)
+;; enabled by -tree-original
+
+
+{
+  if (num <= 1)
+    {
+      return 1;
+    }
+  return factorial (num + -1) * num;
+}
+
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a;
+  int b;
+
+    int a;
+    int b;
+  scanf ((const char * restrict) "%d %d", &a, &b);
+  printf ((const char * restrict) "Addition: %d\n", add (a, b));
+  printf ((const char * restrict) "Subtraction: %d\n", subtract (a, b));
+  printf ((const char * restrict) "Factorial of %d: %d\n", a, factorial (a));
+}
+return 0;
+

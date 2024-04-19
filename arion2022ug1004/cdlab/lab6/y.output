@@ -1,0 +1,135 @@
+   0  $accept : declist $end
+
+   1  declist : decl declist
+   2          |
+
+   3  decl : type list ';'
+
+   4  type : INT
+   5       | FLOAT
+   6       | CHAR
+
+   7  list : list ',' ID
+   8       | ID
+
+state 0
+	$accept : . declist $end  (0)
+	declist : .  (2)
+
+	CHAR  shift 1
+	INT  shift 2
+	FLOAT  shift 3
+	$end  reduce 2
+
+	declist  goto 4
+	decl  goto 5
+	type  goto 6
+
+
+state 1
+	type : CHAR .  (6)
+
+	.  reduce 6
+
+
+state 2
+	type : INT .  (4)
+
+	.  reduce 4
+
+
+state 3
+	type : FLOAT .  (5)
+
+	.  reduce 5
+
+
+state 4
+	$accept : declist . $end  (0)
+
+	$end  accept
+
+
+state 5
+	declist : decl . declist  (1)
+	declist : .  (2)
+
+	CHAR  shift 1
+	INT  shift 2
+	FLOAT  shift 3
+	$end  reduce 2
+
+	declist  goto 7
+	decl  goto 5
+	type  goto 6
+
+
+state 6
+	decl : type . list ';'  (3)
+
+	ID  shift 8
+	.  error
+
+	list  goto 9
+
+
+state 7
+	declist : decl declist .  (1)
+
+	.  reduce 1
+
+
+state 8
+	list : ID .  (8)
+
+	.  reduce 8
+
+
+state 9
+	decl : type list . ';'  (3)
+	list : list . ',' ID  (7)
+
+	';'  shift 10
+	','  shift 11
+	.  error
+
+
+state 10
+	decl : type list ';' .  (3)
+
+	.  reduce 3
+
+
+state 11
+	list : list ',' . ID  (7)
+
+	ID  shift 12
+	.  error
+
+
+state 12
+	list : list ',' ID .  (7)
+
+	.  reduce 7
+
+
+10 terminals, 5 nonterminals
+9 grammar rules, 13 states
+
+grammar parser grammar
+symbol# value# symbol
+     0      0  $end
+     1    256  error
+     2    257  CHAR
+     3    258  INT
+     4    259  FLOAT
+     5    260  ID
+     6    261  NUM
+     7     42  '*'
+     8     59  ';'
+     9     44  ','
+    10    262  $accept
+    11    263  declist
+    12    264  decl
+    13    265  type
+    14    266  list

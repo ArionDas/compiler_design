@@ -1,0 +1,23 @@
+int main ()
+{
+  int D.3178;
+
+  {
+    int num;
+
+    try
+      {
+        scanf ("%d", &num);
+        num.0_1 = num;
+        printf ("%d Congratulations on your first compiler design lab", num.0_1);
+      }
+    finally
+      {
+        num = {CLOBBER(eol)};
+      }
+  }
+  D.3178 = 0;
+  return D.3178;
+}
+
+

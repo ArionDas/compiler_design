@@ -1,0 +1,70 @@
+int add (int a, int b)
+{
+  int D.3190;
+
+  D.3190 = a + b;
+  return D.3190;
+}
+
+
+int subtract (int a, int b)
+{
+  int D.3192;
+
+  D.3192 = a - b;
+  return D.3192;
+}
+
+
+int factorial (int num)
+{
+  int D.3196;
+
+  if (num <= 1) goto <D.3194>; else goto <D.3195>;
+  <D.3194>:
+  D.3196 = 1;
+  // predicted unlikely by early return (on trees) predictor.
+  return D.3196;
+  <D.3195>:
+  _1 = num + -1;
+  _2 = factorial (_1);
+  D.3196 = num * _2;
+  return D.3196;
+}
+
+
+int main ()
+{
+  int D.3198;
+
+  {
+    int a;
+    int b;
+
+    try
+      {
+        scanf ("%d %d", &a, &b);
+        b.0_1 = b;
+        a.1_2 = a;
+        _3 = add (a.1_2, b.0_1);
+        printf ("Addition: %d\n", _3);
+        b.2_4 = b;
+        a.3_5 = a;
+        _6 = subtract (a.3_5, b.2_4);
+        printf ("Subtraction: %d\n", _6);
+        a.4_7 = a;
+        _8 = factorial (a.4_7);
+        a.5_9 = a;
+        printf ("Factorial of %d: %d\n", a.5_9, _8);
+      }
+    finally
+      {
+        a = {CLOBBER(eol)};
+        b = {CLOBBER(eol)};
+      }
+  }
+  D.3198 = 0;
+  return D.3198;
+}
+
+

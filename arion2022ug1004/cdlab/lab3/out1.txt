@@ -1,0 +1,84 @@
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+ Left parenthesis found 
+
+	Keyword found 
+ Identifier found 
+Delimiter found 
+Identifier found 
+Delimiter found 
+Identifier found 
+;
+	Keyword found 
+ Identifier found 
+Delimiter found 
+Identifier found 
+;
+	Identifier found 
+ Assignment Operator found 
+ Arithmetic Operator found 
+Integer number found 
+; Identifier found 
+ Assignment Operator found 
+ Integer number found 
+; Identifier found 
+ Assignment Operator found 
+ Integer number found 
+; Identifier found 
+ Assignment Operator found 
+ Arithmetic Operator found 
+Decimal number found 
+; Identifier found 
+ Assignment Operator found 
+ Integer number found 
+Identifier found 
+Arithmetic Operator found 
+Integer number found 
+;
+	
+	Keyword found 
+Left parenthesis found 
+Identifier found 
+ Relational Operator found 
+ Identifier found 
+Right parenthesis found 
+ Identifier found 
+ Assignment Operator found 
+ Identifier found 
+;
+	Keyword found 
+ Identifier found 
+ Assignment Operator found 
+ Identifier found 
+;
+
+	Identifier found 
+ Assignment Operator found 
+ Decimal number found 
+Multiplicative Operator found 
+Identifier found 
+ Arithmetic Operator found 
+ Identifier found 
+;
+
+	Keyword found 
+ Integer number found 
+;
+	
+Right parenthesis found 
+
+Number of Hexadecimal tokens found: 0 
+Number of Identifiers found: 21 
+Number of Octal tokens found: 0 
+Number of Integer tokens found: 6 
+Number of Decimal tokens found: 2 
+Number of Multiplicative tokens found: 1 
+Number of Arithmetic tokens found: 4 
+Number of Bitwise Shift tokens found: 0 
+Number of Relational tokens found: 1 
+Number of Assignment tokens found: 8 
+Number of Left Parenthesis found: 3 
+Number of Right Parenthesis found: 3 
+Number of Delimiter tokens found: 3 

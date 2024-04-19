@@ -1,0 +1,14 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int num;
+
+    int num;
+  scanf ((const char * restrict) "%d", &num);
+  printf ((const char * restrict) "%d Congratulations on your first compiler design lab", num);
+}
+return 0;
+

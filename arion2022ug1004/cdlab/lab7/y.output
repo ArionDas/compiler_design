@@ -1,0 +1,166 @@
+   0  $accept : EL $end
+
+   1  EL : EL E
+   2     |
+
+   3  E : E '+' T
+   4    | E '-' T
+   5    | T
+
+   6  T : T '*' F
+   7    | T '/' F
+   8    | F
+
+   9  F : NUM
+
+state 0
+	$accept : . EL $end  (0)
+	EL : .  (2)
+
+	.  reduce 2
+
+	EL  goto 1
+
+
+state 1
+	$accept : EL . $end  (0)
+	EL : EL . E  (1)
+
+	$end  accept
+	NUM  shift 2
+	.  error
+
+	E  goto 3
+	T  goto 4
+	F  goto 5
+
+
+state 2
+	F : NUM .  (9)
+
+	.  reduce 9
+
+
+state 3
+	EL : EL E .  (1)
+	E : E . '+' T  (3)
+	E : E . '-' T  (4)
+
+	'+'  shift 6
+	'-'  shift 7
+	$end  reduce 1
+	NUM  reduce 1
+
+
+state 4
+	E : T .  (5)
+	T : T . '*' F  (6)
+	T : T . '/' F  (7)
+
+	'*'  shift 8
+	'/'  shift 9
+	$end  reduce 5
+	NUM  reduce 5
+	'+'  reduce 5
+	'-'  reduce 5
+
+
+state 5
+	T : F .  (8)
+
+	.  reduce 8
+
+
+state 6
+	E : E '+' . T  (3)
+
+	NUM  shift 2
+	.  error
+
+	T  goto 10
+	F  goto 5
+
+
+state 7
+	E : E '-' . T  (4)
+
+	NUM  shift 2
+	.  error
+
+	T  goto 11
+	F  goto 5
+
+
+state 8
+	T : T '*' . F  (6)
+
+	NUM  shift 2
+	.  error
+
+	F  goto 12
+
+
+state 9
+	T : T '/' . F  (7)
+
+	NUM  shift 2
+	.  error
+
+	F  goto 13
+
+
+state 10
+	E : E '+' T .  (3)
+	T : T . '*' F  (6)
+	T : T . '/' F  (7)
+
+	'*'  shift 8
+	'/'  shift 9
+	$end  reduce 3
+	NUM  reduce 3
+	'+'  reduce 3
+	'-'  reduce 3
+
+
+state 11
+	E : E '-' T .  (4)
+	T : T . '*' F  (6)
+	T : T . '/' F  (7)
+
+	'*'  shift 8
+	'/'  shift 9
+	$end  reduce 4
+	NUM  reduce 4
+	'+'  reduce 4
+	'-'  reduce 4
+
+
+state 12
+	T : T '*' F .  (6)
+
+	.  reduce 6
+
+
+state 13
+	T : T '/' F .  (7)
+
+	.  reduce 7
+
+
+7 terminals, 5 nonterminals
+10 grammar rules, 14 states
+
+grammar parser grammar
+symbol# value# symbol
+     0      0  $end
+     1    256  error
+     2    257  NUM
+     3     43  '+'
+     4     45  '-'
+     5     42  '*'
+     6     47  '/'
+     7    258  $accept
+     8    259  EL
+     9    260  E
+    10    261  T
+    11    262  F

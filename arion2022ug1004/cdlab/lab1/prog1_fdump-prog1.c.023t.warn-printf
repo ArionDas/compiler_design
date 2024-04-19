@@ -1,0 +1,38 @@
+
+;; Function main (main, funcdef_no=0, decl_uid=3174, cgraph_uid=1, symbol_order=0)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3
+;; 2 succs { 3 }
+;; 3 succs { 1 }
+prog1.c:7: printf: objsize = 9223372036854775807, fmtstr = "%d Congratulations on your first compiler design lab"
+  Directive 1 at offset 0: "%d"
+    Result: 1, 1, 11, 11 (1, 1, 11, 11)
+  Directive 2 at offset 2: " Congratulations on your first compiler design lab", length = 50
+    Result: 50, 50, 50, 50 (51, 51, 61, 61)
+  Directive 3 at offset 52: "", length = 1
+int main ()
+{
+  int num;
+  int D.3178;
+  int num.0_1;
+  int _6;
+
+  <bb 2> :
+  scanf ("%d", &num);
+  num.0_1 = num;
+  printf ("%d Congratulations on your first compiler design lab", num.0_1);
+  num ={v} {CLOBBER(eol)};
+  _6 = 0;
+
+  <bb 3> :
+<L0>:
+  return _6;
+
+}
+
+

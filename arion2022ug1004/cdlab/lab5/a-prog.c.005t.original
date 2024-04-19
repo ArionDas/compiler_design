@@ -1,0 +1,43 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int a[1000];
+  int i;
+  int j;
+  int sum = 10000;
+
+    int a[1000];
+    int i;
+    int j;
+    int sum = 10000;
+  i = 0;
+  goto <D.3183>;
+  <D.3182>:;
+  a[i] = i;
+  i++ ;
+  <D.3183>:;
+  if (i <= 99) goto <D.3182>; else goto <D.3180>;
+  <D.3180>:;
+  i = 0;
+  goto <D.3191>;
+  <D.3190>:;
+  j = 0;
+  goto <D.3189>;
+  <D.3188>:;
+  a[i] = a[i] * a[j];
+  j++ ;
+  <D.3189>:;
+  if (i * i > j) goto <D.3188>; else goto <D.3186>;
+  <D.3186>:;
+  i++ ;
+  <D.3191>:;
+  if (i <= 9) goto <D.3190>; else goto <D.3184>;
+  <D.3184>:;
+  printf ((const char * restrict) "sum: %d\n", sum);
+  return 0;
+}
+return 0;
+

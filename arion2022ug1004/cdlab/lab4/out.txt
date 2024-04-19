@@ -1,0 +1,279 @@
+Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Multiplicative Operator found 
+Multiplicative Operator found 
+
+Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Integer number found 
+ Identifier found 
+
+Identifier found 
+ Multiplicative Operator found 
+Multiplicative Operator found 
+
+Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+
+\Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Multiplicative Operator found 
+\Multiplicative Operator found 
+
+Multiplicative Operator found 
+Multiplicative Operator found 
+
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+
+Left parenthesis found 
+ Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+ Assignment Operator found 
+ "Identifier found 
+ \
+Integer number found 
+";
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+ Assignment Operator found 
+ "Integer number found 
+""";
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+ Assignment Operator found 
+ """"; Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+ Assignment Operator found 
+ "Identifier found 
+""Identifier found 
+""Identifier found 
+"; Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+
+Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ "" Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+
+Keyword found 
+ Identifier found 
+Left parenthesis found 
+Right parenthesis found 
+ Assignment Operator found 
+"Identifier found 
+" "Integer number found 
+";
+Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Integer number found 
+ Identifier found 
+
+Identifier found 
+ Multiplicative Operator found 
+Multiplicative Operator found 
+
+Keyword found 
+Multiplicative Operator found 
+ Identifier found 
+ Assignment Operator found 
+ "Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+.\Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+.";
+Identifier found 
+Left parenthesis found 
+"Multiplicative Operator found 
+Identifier found 
+ Multiplicative Operator found 
+Identifier found 
+ \Identifier found 
+"Delimiter found 
+ Identifier found 
+Delimiter found 
+ Identifier found 
+Left parenthesis found 
+Identifier found 
+Right parenthesis found 
+Right parenthesis found 
+;
+Identifier found 
+Left parenthesis found 
+"Multiplicative Operator found 
+Identifier found 
+ Multiplicative Operator found 
+Identifier found 
+ \Identifier found 
+"Delimiter found 
+ Identifier found 
+Delimiter found 
+ Identifier found 
+Left parenthesis found 
+Identifier found 
+Right parenthesis found 
+Right parenthesis found 
+;
+Identifier found 
+Left parenthesis found 
+"Multiplicative Operator found 
+Identifier found 
+ Multiplicative Operator found 
+Identifier found 
+ \Identifier found 
+"Delimiter found 
+ Identifier found 
+Delimiter found 
+ Identifier found 
+Left parenthesis found 
+Identifier found 
+Right parenthesis found 
+Right parenthesis found 
+;
+Identifier found 
+Left parenthesis found 
+"Multiplicative Operator found 
+Identifier found 
+ Multiplicative Operator found 
+Identifier found 
+ \Identifier found 
+"Delimiter found 
+ Identifier found 
+Delimiter found 
+ Identifier found 
+Left parenthesis found 
+Identifier found 
+Right parenthesis found 
+Right parenthesis found 
+;
+Identifier found 
+Left parenthesis found 
+"Multiplicative Operator found 
+Identifier found 
+ Multiplicative Operator found 
+Identifier found 
+ \Identifier found 
+"Delimiter found 
+ Identifier found 
+Delimiter found 
+ Identifier found 
+Left parenthesis found 
+Identifier found 
+Right parenthesis found 
+Right parenthesis found 
+;
+Identifier found 
+Left parenthesis found 
+"Multiplicative Operator found 
+Identifier found 
+ Multiplicative Operator found 
+Identifier found 
+ \Identifier found 
+"Delimiter found 
+ Identifier found 
+Delimiter found 
+ Identifier found 
+Left parenthesis found 
+Identifier found 
+Right parenthesis found 
+Right parenthesis found 
+;
+Multiplicative Operator found 
+Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+
+\Multiplicative Operator found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Identifier found 
+ Multiplicative Operator found 
+\Multiplicative Operator found 
+
+Multiplicative Operator found 
+Multiplicative Operator found 
+
+Keyword found 
+ Integer number found 
+;
+Right parenthesis found 
+Number of Hexadecimal tokens found: 0 
+Number of Identifiers found: 121 
+Number of Octal tokens found: 0 
+Number of Integer tokens found: 6 
+Number of Decimal tokens found: 0 
+Number of Multiplicative tokens found: 47 
+Number of Arithmetic tokens found: 0 
+Number of Bitwise Shift tokens found: 0 
+Number of Relational tokens found: 0 
+Number of Assignment tokens found: 6 
+Number of Left Parenthesis found: 19 
+Number of Right Parenthesis found: 19 
+Number of Delimiter tokens found: 12 

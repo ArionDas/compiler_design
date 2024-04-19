@@ -1,0 +1,604 @@
+	C source file: .file
+	"Identifier: prog
+.Identifier: c
+"
+	Assembler Directive: .text
+
+	.Identifier: section
+	.Identifier: rodata
+
+Label: .LC0
+Delimiter: :
+
+	.Identifier: string
+	"Identifier: sum
+Delimiter: :
+ Multiplicative Operator found 
+Identifier: d
+\Identifier: n
+"
+	Assembler Directive: .text
+
+	.Identifier: globl
+	Identifier: main
+
+	.Identifier: type
+	Identifier: main
+Delimiter: ,
+ @Identifier: function
+
+Identifier: main
+Delimiter: :
+
+Label: .LFB0
+Delimiter: :
+
+	.Identifier: cfi
+_Identifier: startproc
+
+	Identifier: endbr64
+
+	Identifier: pushq
+	Multiplicative Operator found 
+Identifier: rbp
+
+	.Identifier: cfi
+_Identifier: def
+_Identifier: cfa
+_Identifier: offset
+ Integer number found 
+
+	.Identifier: cfi
+_Identifier: offset
+ Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+
+	opcode: movq
+	Multiplicative Operator found 
+Identifier: rsp
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rbp
+
+	.Identifier: cfi
+_Identifier: def
+_Identifier: cfa
+_Identifier: register
+ Integer number found 
+
+	opcode: subq
+	$Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rsp
+
+	opcode: movq
+	Multiplicative Operator found 
+Identifier: fs
+Delimiter: :
+Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rax
+
+	opcode: movq
+	Multiplicative Operator found 
+Identifier: rax
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	opcode: xorl
+	Multiplicative Operator found 
+Identifier: eax
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	Identifier: jmp
+	.Identifier: L2
+
+.Identifier: L3
+Delimiter: :
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	Identifier: cltq
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: edx
+
+	opcode: movl
+	Multiplicative Operator found 
+Identifier: edx
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Delimiter: ,
+Multiplicative Operator found 
+Identifier: rax
+Delimiter: ,
+Integer number found 
+Right parenthesis found 
+
+	opcode: addl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+.Identifier: L2
+Delimiter: :
+
+	opcode: cmpl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	Identifier: jle
+	.Identifier: L3
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	Identifier: jmp
+	.Identifier: L4
+
+.Identifier: L7
+Delimiter: :
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	Identifier: jmp
+	.Identifier: L5
+
+.Identifier: L6
+Delimiter: :
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	Identifier: cltq
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Delimiter: ,
+Multiplicative Operator found 
+Identifier: rax
+Delimiter: ,
+Integer number found 
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: edx
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	Identifier: cltq
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Delimiter: ,
+Multiplicative Operator found 
+Identifier: rax
+Delimiter: ,
+Integer number found 
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: imull
+	Multiplicative Operator found 
+Identifier: eax
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: edx
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	Identifier: cltq
+
+	opcode: movl
+	Multiplicative Operator found 
+Identifier: edx
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Delimiter: ,
+Multiplicative Operator found 
+Identifier: rax
+Delimiter: ,
+Integer number found 
+Right parenthesis found 
+
+	opcode: addl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+.Identifier: L5
+Delimiter: :
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: imull
+	Multiplicative Operator found 
+Identifier: eax
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: cmpl
+	Multiplicative Operator found 
+Identifier: eax
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	Identifier: jl
+	.Identifier: L6
+
+	opcode: addl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+.Identifier: L4
+Delimiter: :
+
+	opcode: cmpl
+	$Integer number found 
+Delimiter: ,
+ Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+
+	Identifier: jle
+	.Identifier: L7
+
+	opcode: movl
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: movl
+	Multiplicative Operator found 
+Identifier: eax
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: esi
+
+	opcode: leaq
+	Label: .LC0
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rip
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rax
+
+	opcode: movq
+	Multiplicative Operator found 
+Identifier: rax
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rdi
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	Identifier: call
+	Identifier: printf
+@Identifier: PLT
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: movq
+	Arithmetic Operator found 
+Integer number found 
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rbp
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rdx
+
+	opcode: subq
+	Multiplicative Operator found 
+Identifier: fs
+Delimiter: :
+Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rdx
+
+	Identifier: je
+	.Identifier: L9
+
+	Identifier: call
+	__Identifier: stack
+_Identifier: chk
+_Identifier: fail
+@Identifier: PLT
+
+.Identifier: L9
+Delimiter: :
+
+	Identifier: leave
+
+	.Identifier: cfi
+_Identifier: def
+_Identifier: cfa
+ Integer number found 
+Delimiter: ,
+ Integer number found 
+
+	Identifier: ret
+
+	.Identifier: cfi
+_Identifier: endproc
+
+Label: .LFE0
+Delimiter: :
+
+	.Identifier: size
+	Identifier: main
+Delimiter: ,
+ .Arithmetic Operator found 
+Identifier: main
+
+	.Identifier: ident
+	"Identifier: GCC
+Delimiter: :
+ Left parenthesis found 
+Identifier: Ubuntu
+ Decimal number found 
+.Integer number found 
+Arithmetic Operator found 
+Integer number found 
+Identifier: ubuntu3
+Right parenthesis found 
+ Decimal number found 
+.Integer number found 
+"
+	.Identifier: section
+	.Identifier: note
+.Identifier: GNU
+Arithmetic Operator found 
+Identifier: stack
+Delimiter: ,
+""Delimiter: ,
+@Identifier: progbits
+
+	.Identifier: section
+	.Identifier: note
+.Identifier: gnu
+.Identifier: property
+Delimiter: ,
+"Identifier: a
+"
+	.Identifier: align
+ Integer number found 
+
+	.Identifier: long
+	Integer number found 
+Identifier: f
+ Arithmetic Operator found 
+ Integer number found 
+Identifier: f
+
+	.Identifier: long
+	Integer number found 
+Identifier: f
+ Arithmetic Operator found 
+ Integer number found 
+Identifier: f
+
+	.Identifier: long
+	Integer number found 
+
+Integer number found 
+Delimiter: :
+
+	.Identifier: string
+	"Identifier: GNU
+"
+Integer number found 
+Delimiter: :
+
+	.Identifier: align
+ Integer number found 
+
+	.Identifier: long
+	Integer number found 
+Identifier: xc0000002
+
+	.Identifier: long
+	Integer number found 
+Identifier: f
+ Arithmetic Operator found 
+ Integer number found 
+Identifier: f
+
+Integer number found 
+Delimiter: :
+
+	.Identifier: long
+	Integer number found 
+Identifier: x3
+
+Integer number found 
+Delimiter: :
+
+	.Identifier: align
+ Integer number found 
+
+Integer number found 
+Delimiter: :
+
+Number of Hexadecimal tokens found: 0 
+Number of Identifiers found: 167 
+Number of Octal tokens found: 0 
+Number of Integer tokens found: 67 
+Number of Decimal tokens found: 2 
+Number of Multiplicative tokens found: 64 
+Number of Arithmetic tokens found: 30 
+Number of Bitwise Shift tokens found: 0 
+Number of Relational tokens found: 0 
+Number of Assignment tokens found: 0 
+Number of Left Parenthesis found: 25 
+Number of Right Parenthesis found: 25 
+Number of Delimiter tokens found: 70 
+Number of Assembler Directives found: 2 
+Number of Source Files found: 1 
+Number of Labels found: 4 
+Number of opcodes found: 35 

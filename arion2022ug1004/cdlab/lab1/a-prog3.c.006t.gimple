@@ -1,0 +1,25 @@
+int main ()
+{
+  int D.3182;
+
+  {
+    int a;
+    int b;
+    int c;
+    int d;
+    int s;
+
+    a = 5;
+    b = 7;
+    c = 8;
+    d = 10;
+    _1 = a * b;
+    _2 = c * d;
+    s = _1 + _2;
+    printf ("%d", s);
+  }
+  D.3182 = 0;
+  return D.3182;
+}
+
+

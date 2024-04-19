@@ -1,0 +1,242 @@
+	C source file: .file
+	"Identifier: prog
+.Identifier: c
+"
+	Assembler Directive: .text
+
+	.Identifier: section
+	.Identifier: rodata
+.Identifier: str1
+.Integer number found 
+Delimiter: ,
+"Identifier: aMS
+"Delimiter: ,
+@Identifier: progbits
+Delimiter: ,
+Integer number found 
+
+Label: .LC0
+Delimiter: :
+
+	.Identifier: string
+	"Identifier: sum
+Delimiter: :
+ Multiplicative Operator found 
+Identifier: d
+\Identifier: n
+"
+	.Identifier: section
+	Assembler Directive: .text
+.Identifier: startup
+Delimiter: ,
+"Identifier: ax
+"Delimiter: ,
+@Identifier: progbits
+
+	.Identifier: p2align
+ Integer number found 
+
+	.Identifier: globl
+	Identifier: main
+
+	.Identifier: type
+	Identifier: main
+Delimiter: ,
+ @Identifier: function
+
+Identifier: main
+Delimiter: :
+
+Label: .LFB23
+Delimiter: :
+
+	.Identifier: cfi
+_Identifier: startproc
+
+	Identifier: endbr64
+
+	opcode: subq
+	$Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rsp
+
+	.Identifier: cfi
+_Identifier: def
+_Identifier: cfa
+_Identifier: offset
+ Integer number found 
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: edx
+
+	opcode: movl
+	$Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: edi
+
+	opcode: xorl
+	Multiplicative Operator found 
+Identifier: eax
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: leaq
+	Label: .LC0
+Left parenthesis found 
+Multiplicative Operator found 
+Identifier: rip
+Right parenthesis found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rsi
+
+	Identifier: call
+	__Identifier: printf
+_Identifier: chk
+@Identifier: PLT
+
+	opcode: xorl
+	Multiplicative Operator found 
+Identifier: eax
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: eax
+
+	opcode: addq
+	$Integer number found 
+Delimiter: ,
+ Multiplicative Operator found 
+Identifier: rsp
+
+	.Identifier: cfi
+_Identifier: def
+_Identifier: cfa
+_Identifier: offset
+ Integer number found 
+
+	Identifier: ret
+
+	.Identifier: cfi
+_Identifier: endproc
+
+Label: .LFE23
+Delimiter: :
+
+	.Identifier: size
+	Identifier: main
+Delimiter: ,
+ .Arithmetic Operator found 
+Identifier: main
+
+	.Identifier: ident
+	"Identifier: GCC
+Delimiter: :
+ Left parenthesis found 
+Identifier: Ubuntu
+ Decimal number found 
+.Integer number found 
+Arithmetic Operator found 
+Integer number found 
+Identifier: ubuntu3
+Right parenthesis found 
+ Decimal number found 
+.Integer number found 
+"
+	.Identifier: section
+	.Identifier: note
+.Identifier: GNU
+Arithmetic Operator found 
+Identifier: stack
+Delimiter: ,
+""Delimiter: ,
+@Identifier: progbits
+
+	.Identifier: section
+	.Identifier: note
+.Identifier: gnu
+.Identifier: property
+Delimiter: ,
+"Identifier: a
+"
+	.Identifier: align
+ Integer number found 
+
+	.Identifier: long
+	Integer number found 
+Identifier: f
+ Arithmetic Operator found 
+ Integer number found 
+Identifier: f
+
+	.Identifier: long
+	Integer number found 
+Identifier: f
+ Arithmetic Operator found 
+ Integer number found 
+Identifier: f
+
+	.Identifier: long
+	Integer number found 
+
+Integer number found 
+Delimiter: :
+
+	.Identifier: string
+	"Identifier: GNU
+"
+Integer number found 
+Delimiter: :
+
+	.Identifier: align
+ Integer number found 
+
+	.Identifier: long
+	Integer number found 
+Identifier: xc0000002
+
+	.Identifier: long
+	Integer number found 
+Identifier: f
+ Arithmetic Operator found 
+ Integer number found 
+Identifier: f
+
+Integer number found 
+Delimiter: :
+
+	.Identifier: long
+	Integer number found 
+Identifier: x3
+
+Integer number found 
+Delimiter: :
+
+	.Identifier: align
+ Integer number found 
+
+Integer number found 
+Delimiter: :
+
+Number of Hexadecimal tokens found: 0 
+Number of Identifiers found: 86 
+Number of Octal tokens found: 0 
+Number of Integer tokens found: 29 
+Number of Decimal tokens found: 2 
+Number of Multiplicative tokens found: 11 
+Number of Arithmetic tokens found: 6 
+Number of Bitwise Shift tokens found: 0 
+Number of Relational tokens found: 0 
+Number of Assignment tokens found: 0 
+Number of Left Parenthesis found: 2 
+Number of Right Parenthesis found: 2 
+Number of Delimiter tokens found: 28 
+Number of Assembler Directives found: 2 
+Number of Source Files found: 1 
+Number of Labels found: 4 
+Number of opcodes found: 7 
