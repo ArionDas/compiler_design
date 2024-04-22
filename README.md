@@ -22,6 +22,5 @@ Make sure you have Flex (Lex) & Bison (YACC) installed on your system <br>
 #### Run the following commands in order
 >>> yacc -dv <file_name.y> <br>
 >>> gcc y.tab.c -ll -o <custom_file_name> <br>
->>> ./<custom_file_name> < input_file > output_file <br>
-<br> <br>
+>>> ./<custom_file_name> < input_file > output_file <br> <br>
 ### Feel free to submit a PR if you come across any issues.
