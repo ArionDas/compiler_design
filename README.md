@@ -12,3 +12,14 @@ There are a lot of garbage files which are a result of .y & .l file evaluation
 It's better to work on a UNIX based OS (Ubuntu / Redhat / CentOS) <br>
 Make sure you have Flex (Lex) & Bison (YACC) installed on your system <br>
 
+## How to run lex files (.l files)
+#### Run the following commands in order
+>>> lex <file_name.l> <br>
+>>> gcc lex.yy.c -ll -o <custom_file_name> <br>
+>>> ./<custom_file_name> < input_file > output_file <br>
+
+## How to run yacc files (.y files)
+#### Run the following commands in order
+>>> yacc -dv <file_name.y> <br>
+>>> gcc y.tab.c -ll -o <custom_file_name> <br>
+>>> ./<custom_file_name> < input_file > output_file <br>
