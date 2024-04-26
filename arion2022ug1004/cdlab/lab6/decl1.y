@@ -23,12 +23,16 @@ type:    INT            {printf("Rule 4 : type -> INT used\n");int_dt++;}
          | FLOAT        {printf("Rule 5 : type -> FLOAT used\n");float_dt++;}
          | CHAR         {printf("Rule 6 : type -> CHAR used\n");char_dt++; }
          ;
-list :   list ',' ID A  {printf("Rule 7 : list -> list , ID Q used\n");}
-         | ID A         {printf("Rule 8 : list -> ID Q used\n");}
+list :   list ',' S ID A  {printf("Rule 7 : list -> list , S ID A Q used\n");}
+         | S ID A         {printf("Rule 8 : list -> S ID A Q used\n");}
          ;
 A: '['NUM']' {printf("Rule 9: for multidim arrays\n\n");}
       |      {printf("Rule 10: A -> NULL\n\n");}
-         ;
+
+S: '*' S    {printf("Rule 11: S -> *S for pointers\n\n");}
+      |     {printf("Rule 12: S -> NULL\n\n");}
+      ;
+      ;
 
 %%
 void yyerror(char *s)
