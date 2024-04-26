@@ -23,9 +23,11 @@ type:    INT            {printf("Rule 4 : type -> INT used\n");int_dt++;}
          | FLOAT        {printf("Rule 5 : type -> FLOAT used\n");float_dt++;}
          | CHAR         {printf("Rule 6 : type -> CHAR used\n");char_dt++; }
          ;
-list :   list ',' ID   {printf("Rule 7 : list -> list , ID Q used\n");}
-         | ID          {printf("Rule 8 : list -> ID Q used\n");}
+list :   list ',' ID A  {printf("Rule 7 : list -> list , ID Q used\n");}
+         | ID A         {printf("Rule 8 : list -> ID Q used\n");}
          ;
+A: '['NUM']' {printf("Rule 9: for multidim arrays\n\n");}
+      |      {printf("Rule 10: A -> NULL\n\n");}
          ;
 
 %%

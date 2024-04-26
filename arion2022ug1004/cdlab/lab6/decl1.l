@@ -22,6 +22,8 @@ num [+\- ]{digit}+
 {digit}+    {return NUM;}
 ";"         {return ';';}
 ","         {return ',';}
+"["         {return '[';}
+"]"         {return ']';}
 %%
 
 int yywrap(void)
