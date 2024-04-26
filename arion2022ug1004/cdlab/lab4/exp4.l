@@ -9,6 +9,7 @@ D [0-9]
 DO [0-7]
 HX [A-Fa-f0-9]
 %%
+/\*.*?\*/ {printf("Comment found\n");return 1;}
 int|if|else|return|float|char|const|static|while|do|void {printf("Keyword found \n");return 1;}
 (0X){HX}+ {printf("Hexadecimal number found \n"); hex++; return 1;}
 {L}({L}|{D})* {printf("Identifier found \n"); id++; return 1;}
